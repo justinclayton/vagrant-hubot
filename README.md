@@ -1,6 +1,12 @@
 hubot-vagrant
 =============
 
+# UPDATES:
+## IRC NOT NEEDED? JUST AS EASY TO USE SHELL PROVIDER?
+## MAKE VAGRANTFILE NOT BSI
+## UN-SQUEEZE? IT IS NODE, AFTER ALL. MAYBE CENTOS OR SOMETHING ELSE REASONABLE
+## GENERALLY SPRINKLE SIMPLICITY EVERYWHERE
+
 Complete bootstrap environment for testing out new Hubot modules
 
 # What?
@@ -11,7 +17,7 @@ up, connect your IRC client to:
 
 irc://localhost:6667
 
-# Why? 
+# Why?
 Well, I didn't want to use Heroku. Also, since I planned on deploying
 this in the future to my infrastructure, I might as well have the
 recipes in place and whatnot to make this work properly.
@@ -39,8 +45,8 @@ Startup Veewee
   vagrant up hubot
 </pre>
 
-# Refreshing Scripts 
-Anytime that you have a script that should be reloaded, simply 
+# Refreshing Scripts
+Anytime that you have a script that should be reloaded, simply
 reprovision your vagrant server.
 <pre>
   cd vagrant-hubot/vagrant
