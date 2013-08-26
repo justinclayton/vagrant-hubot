@@ -1,4 +1,5 @@
 .rvmrc
 .vagrant
+scripts/*
 vagrant/iso/*
 vagrant/graph/*
